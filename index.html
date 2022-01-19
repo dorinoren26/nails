@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="nails.css">
+</head>
+
+<body>
+  <header style="background-image: url(images/logo4.jpg);background-size:cover ;height: 400px;;">
+
+    <br><br><br><br><br>
+
+    <h1 style="direction: ltr; font-family:Luxurious Roman;
+        font-size: 75px;"> News Nails</h1>
+
+  </header>
+  <h1>
+    סקר קצר לפני שנתחיל
+  </h1>
+
+  <form action="https://formspree.io/f/mayvqdjk" method="POST">
+
+    <fieldset>
+      <legend>העדפות שלי:</legend>
+      <h2> סוג מועדף:</h2>
+      <div class="dir">
+        <label for="type">סוג ציפורניים:</label>
+        <select name="type" id="type">
+          <option value=""></option>
+          <option value="akril"> בנייה באקריל </option>
+          <option value="b.gel">בניה בגל </option>
+          <option value="gel">לק גל</option>
+          <option value="anatomi">לק גל עם מבנה אנטומי</option>
+      </div>
+      </select>
+      <br>
+      <h2>כמה את מרוצה מהמניקוריסטית שלך?</h2>
+      <div class="dir">
+        <input type="radio" id="first" name="radio" value="first">
+        <label for="first"> מרוצה מאוד</label>
+        <br>
+        <input type="radio" id="second" name="second" value="second">
+        <label for="second"> מרוצה</label>
+        <br>
+        <input type="radio" id="three" name="three" value="three">
+        <label for="three">לא מרוצה</label>
+        <br>
+        <input type="radio" id="for" name="for" value="for">
+        <label for="for">לא מרוצה בכלל</label>
+      </div>
+      <br>
+      <h2> מה הצורה המועדפת עליך?</h2>
+      <div class="dir">
+        <input type="radio" id="Round" name="Round">
+        <label for="Round">עגול </label>
+        <br>
+        <input type="radio" id="square" name="square">
+        <label for="square">מרובע </label>
+        <br>
+        <input type="radio" id="Stiletto" name="Stiletto">
+        <label for="Stiletto">שפיץ </label>
+        <br>
+        <input type="radio" id="Round" name="Round">
+        <label for="Round">שקד </label>
+      </div>
+      <h2>האמת אי פעם יצאת ממילוי ולא אהבת ?</h2>
+      <div class="dir">
+        <input type="radio" id="Round" name="Round">
+        <label for="Round">כמעט תמיד </label>
+        <br>
+        <input type="radio" id="square" name="square">
+        <label for="square">לפעמים </label>
+        <br>
+        <input type="radio" id="Stiletto" name="Stiletto">
+        <label for="Stiletto">פעם ב </label>
+        <br>
+        <input type="radio" id="Round" name="Round">
+        <label for="Round">אף פעם </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>פגישת ייעוץ</legend>
+      <h2> בחרי זמן שמתאיך לך ואנחנו נשוחח עמך</h2>
+      <label for="meet"> בחרי תאריך ושעה</label>
+      <input type="datetime-local" id="meet" name="meet">
+
+    </fieldset>
+
+    <fieldset>
+      <legend>תנאי שימוש</legend>
+      <p>
+        השימוש באתר מעיד על הסכמתך לתנאי השימוש, כלשונם ובמלואם, ומהווה הסכמה בהתנהגות לתנאי השימוש. המשתמש מתבקש לקרוא
+        את תנאי השימוש בקפידה.
+
+      </p>
+      <div class="dir">
+        <input type="checkbox" id="check" name="check" value="check">
+        <label for="check">מסכים </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend> קורסים</legend>
+      <h2> בחרי את הקורס שלך בהתאמה אישית</h2>
+      <label for="quantity">כמות שיעורים</label>
+      <input type="number" id="quantity" name="quantity" min="0" max="24">
+      <br>
+      <label for="choice"> רמה</label>
+      <select name="choice" id="choice">
+        <option></option>
+        <option>השתלמות למקצועיות-פוליגל</option>
+        <option>השתלמות למקצועיות-אקריל</option>
+        <option>השתלמות למקצועיות-מבנה אנטומי</option>
+        <option>קורס מתחילות-מבנה אנטומי</option>
+        <option>קורס מתחילות-בנייה באקריל</option>
+        <option>קורס מתחילות-פוליגל</option>
+        <option>השתלות קישוטים</option>
+      </select>
+      <br>
+      <label for="number">שעות הקורס</label>
+      <select name="number" id="number">
+        <option>בוקר 00:08-15:00</option>
+        <option>ערב 17:00-21:00</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend> פרטיים אישיים</legend>
+      <label for="name">שם פרטי</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="lname"> שם משפחה</label>
+      <input type="text" id="lname" name="lname">
+      <br>
+      <label for="text"> כתובת</label>
+      <input type="text" id="text1" name="text" placeholder="עיר">
+      <input type="text" id="text2" name="text" placeholder="רחוב">
+      <input type="text" id="text3" name="text" placeholder="מס' בית">
+      <input type="text" id="text4" name="text" placeholder="דירה">
+      <input type="text" id="text5" name="text" placeholder="מיקוד">
+      <br>
+      <label for="email"> דוא"ל</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="phone"> טלפון</label>
+      <input type="tel" id="phone" name="phone">
+
+
+    </fieldset>
+    <br>
+
+    <input class="inputtol" type="submit" value="שלח">
+
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+  background-color: lavenderblush;
+  direction: rtl;
+  text-align: center;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+fieldset {
+    border-radius: 10px;
+  width: 400px;
+  margin-left: 650px;
+  margin-right: 570px;
+  padding: 5px;
+  background-color:rgb(255, 205, 205);
+
+}
+.dir {
+    text-align: justify;
+}
+h2 {
+    font-size: 22px;
+}
+legend {
+    font-size: 25px;
+}
+form {
+    font-size: 20px;
+}
+.inputtol {
+  background-color:rgb(255, 213, 226) ;
+  padding-left:40px ;
+  padding-right:40px ;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 19px;
+}
+/*
+form {
+  border: 3px solid rgb(228, 197, 185);
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding: 5px;
+}
